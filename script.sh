@@ -38,3 +38,5 @@ do
         read_cfg $cfg_file $xml_file
     fi
 done
+git commit -a *.xml *.cfg -m "Commit underlying configuration files"
+git push
