@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resource name="Test example" type="application/someconfig+xml">
+    <connection id="TESTXML" url="255.110.100.255:9999">
+<user name="someuser" password="mysecret password" orders="nope"/>
+    </account>
+    <account name="Someaccount" url="255.110.100.255:8888">
+<user name="yet another user" password="secretpwd" quotes="yes"/>
+    </account>
