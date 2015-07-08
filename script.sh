@@ -27,6 +27,9 @@ read_cfg () {
     entry+="$SocketConnectPort;$SenderCompID"
     echo "$entry"
 }
+#update repository
+git checkout prod                           # make sure we have 'prod' branch set
+git pull                                    # update repository
 
 for cfg_file in *.cfg
 do
